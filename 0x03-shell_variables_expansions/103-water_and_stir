@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo "ibase=water; ${WATER}" | tr "[:lower:]" "[:upper:]") + $(echo "ibase=stir; ${STIR}" | tr "[:lower:]" "[:upper:]") )) | tr "[:upper:]" "[:lower:]"
+echo $((WATER + STIR))
